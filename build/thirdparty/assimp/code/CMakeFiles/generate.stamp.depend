@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+K:/Programs/Cmake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/FindPackageMessage.cmake
+K:/Repo/OpenGLPAG/thirdparty/assimp/cmake-modules/FindRT.cmake
+K:/Repo/OpenGLPAG/thirdparty/assimp/code/CMakeLists.txt

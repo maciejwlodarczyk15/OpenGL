@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EA3A101D-7111-362C-971A-6C5B790479B0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>glad</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">K:\Repo\OpenGLPAG\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glad.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glad</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">K:\Repo\OpenGLPAG\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glad.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glad</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">K:\Repo\OpenGLPAG\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glad.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glad</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">K:\Repo\OpenGLPAG\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glad.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glad</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\thirdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\thirdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\thirdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\thirdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\thirdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\thirdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\thirdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\thirdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\thirdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\thirdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\thirdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\thirdparty\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="K:\Repo\OpenGLPAG\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule K:/Repo/OpenGLPAG/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+K:\Programs\Cmake\bin\cmake.exe -SK:/Repo/OpenGLPAG -BK:/Repo/OpenGLPAG/build --check-stamp-file K:/Repo/OpenGLPAG/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeCInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\FindOpenGL.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\FindPackageMessage.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;K:\Repo\OpenGLPAG\thirdparty\thirdparty.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">K:\Repo\OpenGLPAG\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule K:/Repo/OpenGLPAG/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+K:\Programs\Cmake\bin\cmake.exe -SK:/Repo/OpenGLPAG -BK:/Repo/OpenGLPAG/build --check-stamp-file K:/Repo/OpenGLPAG/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeCInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\FindOpenGL.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\FindPackageMessage.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;K:\Repo\OpenGLPAG\thirdparty\thirdparty.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">K:\Repo\OpenGLPAG\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule K:/Repo/OpenGLPAG/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+K:\Programs\Cmake\bin\cmake.exe -SK:/Repo/OpenGLPAG -BK:/Repo/OpenGLPAG/build --check-stamp-file K:/Repo/OpenGLPAG/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeCInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\FindOpenGL.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\FindPackageMessage.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;K:\Repo\OpenGLPAG\thirdparty\thirdparty.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">K:\Repo\OpenGLPAG\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule K:/Repo/OpenGLPAG/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+K:\Programs\Cmake\bin\cmake.exe -SK:/Repo/OpenGLPAG -BK:/Repo/OpenGLPAG/build --check-stamp-file K:/Repo/OpenGLPAG/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeCInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\FindOpenGL.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\FindPackageMessage.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\Windows.cmake;K:\Programs\Cmake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;K:\Repo\OpenGLPAG\build\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;K:\Repo\OpenGLPAG\thirdparty\thirdparty.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">K:\Repo\OpenGLPAG\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="K:\Repo\OpenGLPAG\thirdparty\glad\src\glad.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="K:\Repo\OpenGLPAG\build\ZERO_CHECK.vcxproj">
+      <Project>{657BE57F-42FC-3345-B4B4-B463ACFB6DB1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

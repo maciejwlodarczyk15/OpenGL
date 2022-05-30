@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+K:/Programs/Cmake/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+K:/Programs/Cmake/share/cmake-3.22/Modules/CMakePackageConfigHelpers.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/CheckIncludeFile.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/CheckLibraryExists.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/FindPackageMessage.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/FindThreads.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/WriteBasicConfigVersionFile.cmake
+K:/Repo/OpenGLPAG/thirdparty/glfw/CMake/modules/FindVulkan.cmake
+K:/Repo/OpenGLPAG/thirdparty/glfw/CMakeLists.txt
+K:/Repo/OpenGLPAG/thirdparty/glfw/src/glfw3.pc.in
+K:/Repo/OpenGLPAG/thirdparty/glfw/src/glfw3Config.cmake.in
+K:/Repo/OpenGLPAG/thirdparty/glfw/src/glfw_config.h.in

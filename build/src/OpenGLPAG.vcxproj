@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{015D57B6-CB05-356C-9653-28CAD0D3F7E6}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>OpenGLPAG</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">K:\Repo\OpenGLPAG\build\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenGLPAG.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenGLPAG</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">K:\Repo\OpenGLPAG\build\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenGLPAG.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenGLPAG</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">K:\Repo\OpenGLPAG\build\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OpenGLPAG.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OpenGLPAG</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">K:\Repo\OpenGLPAG\build\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OpenGLPAG.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OpenGLPAG</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>K:\Repo\OpenGLPAG\thirdparty\ft2120\freetype-2.12.0\include;K:\Repo\OpenGLPAG\thirdparty\openAL\include;K:\Repo\OpenGLPAG\thirdparty\rapidjson\include;$(IncludePath)</IncludePath>
+    <LibraryPath>K:\Repo\OpenGLPAG\thirdparty\ft2120\freetype-2.12.0\objs\x64\Debug;K:\Repo\OpenGLPAG\thirdparty\openAL\build\Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\src;K:\Repo\OpenGLPAG\thirdparty\assimp\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\include;K:\Repo\OpenGLPAG\thirdparty\glfw\include;K:\Repo\OpenGLPAG\thirdparty\glad\include;K:\Repo\OpenGLPAG\thirdparty\glm;K:\Repo\OpenGLPAG\thirdparty\imgui;K:\Repo\OpenGLPAG\thirdparty\stb_image;K:\Repo\OpenGLPAG\thirdparty\assimp\code\..\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLFW_INCLUDE_NONE;LIBRARY_SUFFIX="";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLFW_INCLUDE_NONE;LIBRARY_SUFFIX=\"\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\src;K:\Repo\OpenGLPAG\thirdparty\assimp\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\include;K:\Repo\OpenGLPAG\thirdparty\glfw\include;K:\Repo\OpenGLPAG\thirdparty\glad\include;K:\Repo\OpenGLPAG\thirdparty\glm;K:\Repo\OpenGLPAG\thirdparty\imgui;K:\Repo\OpenGLPAG\thirdparty\stb_image;K:\Repo\OpenGLPAG\thirdparty\assimp\code\..\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\src;K:\Repo\OpenGLPAG\thirdparty\assimp\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\include;K:\Repo\OpenGLPAG\thirdparty\glfw\include;K:\Repo\OpenGLPAG\thirdparty\glad\include;K:\Repo\OpenGLPAG\thirdparty\glm;K:\Repo\OpenGLPAG\thirdparty\imgui;K:\Repo\OpenGLPAG\thirdparty\stb_image;K:\Repo\OpenGLPAG\thirdparty\assimp\code\..\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+K:\Programs\Cmake\bin\cmake.exe -E copy_directory K:/Repo/OpenGLPAG/res K:/Repo/OpenGLPAG/build/src/res
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\thirdparty\assimp\code\Debug\assimp-vc140-mt.lib;..\thirdparty\glfw\src\Debug\glfw3.lib;..\Debug\glad.lib;..\Debug\imgui.lib;..\Debug\stb_image.lib;..\thirdparty\assimp\contrib\zlib\Debug\zlibstaticd.lib;..\thirdparty\assimp\contrib\irrXML\Debug\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;OpenAL32.lib;freetype.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>K:/Repo/OpenGLPAG/build/src/Debug/OpenGLPAG.lib</ImportLibrary>
+      <ProgramDataBaseFile>K:/Repo/OpenGLPAG/build/src/Debug/OpenGLPAG.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\src;K:\Repo\OpenGLPAG\thirdparty\assimp\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\include;K:\Repo\OpenGLPAG\thirdparty\glfw\include;K:\Repo\OpenGLPAG\thirdparty\glad\include;K:\Repo\OpenGLPAG\thirdparty\glm;K:\Repo\OpenGLPAG\thirdparty\imgui;K:\Repo\OpenGLPAG\thirdparty\stb_image;K:\Repo\OpenGLPAG\thirdparty\assimp\code\..\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;LIBRARY_SUFFIX="";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;LIBRARY_SUFFIX=\"\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\src;K:\Repo\OpenGLPAG\thirdparty\assimp\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\include;K:\Repo\OpenGLPAG\thirdparty\glfw\include;K:\Repo\OpenGLPAG\thirdparty\glad\include;K:\Repo\OpenGLPAG\thirdparty\glm;K:\Repo\OpenGLPAG\thirdparty\imgui;K:\Repo\OpenGLPAG\thirdparty\stb_image;K:\Repo\OpenGLPAG\thirdparty\assimp\code\..\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\src;K:\Repo\OpenGLPAG\thirdparty\assimp\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\include;K:\Repo\OpenGLPAG\thirdparty\glfw\include;K:\Repo\OpenGLPAG\thirdparty\glad\include;K:\Repo\OpenGLPAG\thirdparty\glm;K:\Repo\OpenGLPAG\thirdparty\imgui;K:\Repo\OpenGLPAG\thirdparty\stb_image;K:\Repo\OpenGLPAG\thirdparty\assimp\code\..\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+K:\Programs\Cmake\bin\cmake.exe -E copy_directory K:/Repo/OpenGLPAG/res K:/Repo/OpenGLPAG/build/src/res
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\thirdparty\assimp\code\Release\assimp-vc140-mt.lib;..\thirdparty\glfw\src\Release\glfw3.lib;..\Release\glad.lib;..\Release\imgui.lib;..\Release\stb_image.lib;..\thirdparty\assimp\contrib\zlib\Release\zlibstatic.lib;..\thirdparty\assimp\contrib\irrXML\Release\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>K:/Repo/OpenGLPAG/build/src/Release/OpenGLPAG.lib</ImportLibrary>
+      <ProgramDataBaseFile>K:/Repo/OpenGLPAG/build/src/Release/OpenGLPAG.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\src;K:\Repo\OpenGLPAG\thirdparty\assimp\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\include;K:\Repo\OpenGLPAG\thirdparty\glfw\include;K:\Repo\OpenGLPAG\thirdparty\glad\include;K:\Repo\OpenGLPAG\thirdparty\glm;K:\Repo\OpenGLPAG\thirdparty\imgui;K:\Repo\OpenGLPAG\thirdparty\stb_image;K:\Repo\OpenGLPAG\thirdparty\assimp\code\..\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;LIBRARY_SUFFIX="";CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;LIBRARY_SUFFIX=\"\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\src;K:\Repo\OpenGLPAG\thirdparty\assimp\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\include;K:\Repo\OpenGLPAG\thirdparty\glfw\include;K:\Repo\OpenGLPAG\thirdparty\glad\include;K:\Repo\OpenGLPAG\thirdparty\glm;K:\Repo\OpenGLPAG\thirdparty\imgui;K:\Repo\OpenGLPAG\thirdparty\stb_image;K:\Repo\OpenGLPAG\thirdparty\assimp\code\..\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\src;K:\Repo\OpenGLPAG\thirdparty\assimp\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\include;K:\Repo\OpenGLPAG\thirdparty\glfw\include;K:\Repo\OpenGLPAG\thirdparty\glad\include;K:\Repo\OpenGLPAG\thirdparty\glm;K:\Repo\OpenGLPAG\thirdparty\imgui;K:\Repo\OpenGLPAG\thirdparty\stb_image;K:\Repo\OpenGLPAG\thirdparty\assimp\code\..\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+K:\Programs\Cmake\bin\cmake.exe -E copy_directory K:/Repo/OpenGLPAG/res K:/Repo/OpenGLPAG/build/src/res
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\thirdparty\assimp\code\MinSizeRel\assimp-vc140-mt.lib;..\thirdparty\glfw\src\MinSizeRel\glfw3.lib;..\MinSizeRel\glad.lib;..\MinSizeRel\imgui.lib;..\MinSizeRel\stb_image.lib;..\thirdparty\assimp\contrib\zlib\MinSizeRel\zlibstatic.lib;..\thirdparty\assimp\contrib\irrXML\MinSizeRel\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>K:/Repo/OpenGLPAG/build/src/MinSizeRel/OpenGLPAG.lib</ImportLibrary>
+      <ProgramDataBaseFile>K:/Repo/OpenGLPAG/build/src/MinSizeRel/OpenGLPAG.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\src;K:\Repo\OpenGLPAG\thirdparty\assimp\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\include;K:\Repo\OpenGLPAG\thirdparty\glfw\include;K:\Repo\OpenGLPAG\thirdparty\glad\include;K:\Repo\OpenGLPAG\thirdparty\glm;K:\Repo\OpenGLPAG\thirdparty\imgui;K:\Repo\OpenGLPAG\thirdparty\stb_image;K:\Repo\OpenGLPAG\thirdparty\assimp\code\..\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;LIBRARY_SUFFIX="";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_INCLUDE_NONE;LIBRARY_SUFFIX=\"\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\src;K:\Repo\OpenGLPAG\thirdparty\assimp\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\include;K:\Repo\OpenGLPAG\thirdparty\glfw\include;K:\Repo\OpenGLPAG\thirdparty\glad\include;K:\Repo\OpenGLPAG\thirdparty\glm;K:\Repo\OpenGLPAG\thirdparty\imgui;K:\Repo\OpenGLPAG\thirdparty\stb_image;K:\Repo\OpenGLPAG\thirdparty\assimp\code\..\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Repo\OpenGLPAG\src;K:\Repo\OpenGLPAG\thirdparty\assimp\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\include;K:\Repo\OpenGLPAG\thirdparty\glfw\include;K:\Repo\OpenGLPAG\thirdparty\glad\include;K:\Repo\OpenGLPAG\thirdparty\glm;K:\Repo\OpenGLPAG\thirdparty\imgui;K:\Repo\OpenGLPAG\thirdparty\stb_image;K:\Repo\OpenGLPAG\thirdparty\assimp\code\..\include;K:\Repo\OpenGLPAG\build\thirdparty\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+K:\Programs\Cmake\bin\cmake.exe -E copy_directory K:/Repo/OpenGLPAG/res K:/Repo/OpenGLPAG/build/src/res
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\thirdparty\assimp\code\RelWithDebInfo\assimp-vc140-mt.lib;..\thirdparty\glfw\src\RelWithDebInfo\glfw3.lib;..\RelWithDebInfo\glad.lib;..\RelWithDebInfo\imgui.lib;..\RelWithDebInfo\stb_image.lib;..\thirdparty\assimp\contrib\zlib\RelWithDebInfo\zlibstatic.lib;..\thirdparty\assimp\contrib\irrXML\RelWithDebInfo\IrrXML.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>K:/Repo/OpenGLPAG/build/src/RelWithDebInfo/OpenGLPAG.lib</ImportLibrary>
+      <ProgramDataBaseFile>K:/Repo/OpenGLPAG/build/src/RelWithDebInfo/OpenGLPAG.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="K:\Repo\OpenGLPAG\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule K:/Repo/OpenGLPAG/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+K:\Programs\Cmake\bin\cmake.exe -SK:/Repo/OpenGLPAG -BK:/Repo/OpenGLPAG/build --check-stamp-file K:/Repo/OpenGLPAG/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">K:\Repo\OpenGLPAG\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule K:/Repo/OpenGLPAG/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+K:\Programs\Cmake\bin\cmake.exe -SK:/Repo/OpenGLPAG -BK:/Repo/OpenGLPAG/build --check-stamp-file K:/Repo/OpenGLPAG/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">K:\Repo\OpenGLPAG\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule K:/Repo/OpenGLPAG/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+K:\Programs\Cmake\bin\cmake.exe -SK:/Repo/OpenGLPAG -BK:/Repo/OpenGLPAG/build --check-stamp-file K:/Repo/OpenGLPAG/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">K:\Repo\OpenGLPAG\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule K:/Repo/OpenGLPAG/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+K:\Programs\Cmake\bin\cmake.exe -SK:/Repo/OpenGLPAG -BK:/Repo/OpenGLPAG/build --check-stamp-file K:/Repo/OpenGLPAG/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">K:\Repo\OpenGLPAG\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="K:\Repo\OpenGLPAG\src\camera.h" />
+    <ClInclude Include="K:\Repo\OpenGLPAG\src\imgui_impl_glfw.h" />
+    <ClInclude Include="K:\Repo\OpenGLPAG\src\imgui_impl_opengl3.h" />
+    <ClInclude Include="K:\Repo\OpenGLPAG\src\mesh.h" />
+    <ClInclude Include="K:\Repo\OpenGLPAG\src\model.h" />
+    <ClInclude Include="K:\Repo\OpenGLPAG\src\shader.h" />
+    <ClCompile Include="K:\Repo\OpenGLPAG\src\imgui_impl_glfw.cpp" />
+    <ClCompile Include="K:\Repo\OpenGLPAG\src\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\..\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="K:\Repo\OpenGLPAG\build\ZERO_CHECK.vcxproj">
+      <Project>{657BE57F-42FC-3345-B4B4-B463ACFB6DB1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="K:\Repo\OpenGLPAG\build\thirdparty\assimp\contrib\irrXML\IrrXML.vcxproj">
+      <Project>{C54BA621-877D-317F-9F56-E4A4D6135B13}</Project>
+      <Name>IrrXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="K:\Repo\OpenGLPAG\build\thirdparty\assimp\code\assimp.vcxproj">
+      <Project>{9C6F362B-B341-371E-9D52-027BD1B704E3}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="K:\Repo\OpenGLPAG\build\glad.vcxproj">
+      <Project>{EA3A101D-7111-362C-971A-6C5B790479B0}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="K:\Repo\OpenGLPAG\build\thirdparty\glfw\src\glfw.vcxproj">
+      <Project>{46D9D59F-14AB-39DE-95EF-DAC4FBEB2114}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="K:\Repo\OpenGLPAG\build\imgui.vcxproj">
+      <Project>{B258CEDE-DCD4-347D-A69A-7174FCBFD2D4}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="K:\Repo\OpenGLPAG\build\stb_image.vcxproj">
+      <Project>{C459B534-83FF-3BC1-BD80-69BCD7CC71D9}</Project>
+      <Name>stb_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="K:\Repo\OpenGLPAG\build\thirdparty\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{F4B1D616-5672-36BF-9B0E-860F31ACDC76}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

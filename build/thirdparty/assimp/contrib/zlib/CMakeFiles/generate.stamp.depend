@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+K:/Programs/Cmake/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/CheckFunctionExists.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/CheckIncludeFile.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/CheckTypeSize.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake
+K:/Repo/OpenGLPAG/thirdparty/assimp/contrib/zlib/CMakeLists.txt
+K:/Repo/OpenGLPAG/thirdparty/assimp/contrib/zlib/zconf.h.cmakein
+K:/Repo/OpenGLPAG/thirdparty/assimp/contrib/zlib/zlib.pc.cmakein

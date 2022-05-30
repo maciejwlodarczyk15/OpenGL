@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+K:/Programs/Cmake/share/cmake-3.22/Modules/CheckFunctionExists.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/CheckIncludeFile.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/CheckTypeSize.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/FindPackageMessage.cmake
+K:/Programs/Cmake/share/cmake-3.22/Modules/FindPkgConfig.cmake
+K:/Repo/OpenGLPAG/thirdparty/assimp/CMakeLists.txt
+K:/Repo/OpenGLPAG/thirdparty/assimp/assimp-config-version.cmake.in
+K:/Repo/OpenGLPAG/thirdparty/assimp/assimp-config.cmake.in
+K:/Repo/OpenGLPAG/thirdparty/assimp/assimp.pc.in
+K:/Repo/OpenGLPAG/thirdparty/assimp/cmake-modules/FindDirectX.cmake
+K:/Repo/OpenGLPAG/thirdparty/assimp/cmake-modules/FindPkgMacros.cmake
+K:/Repo/OpenGLPAG/thirdparty/assimp/cmake-modules/FindZLIB.cmake
+K:/Repo/OpenGLPAG/thirdparty/assimp/cmake-modules/PrecompiledHeader.cmake
+K:/Repo/OpenGLPAG/thirdparty/assimp/cmake-modules/cmake_uninstall.cmake.in
+K:/Repo/OpenGLPAG/thirdparty/assimp/include/assimp/config.h.in
+K:/Repo/OpenGLPAG/thirdparty/assimp/revision.h.in

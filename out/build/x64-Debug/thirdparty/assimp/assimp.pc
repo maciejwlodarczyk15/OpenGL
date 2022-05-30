@@ -1,0 +1,11 @@
+prefix=K:/Repo/OpenGLPAG/out/install/x64-Debug
+exec_prefix=K:/Repo/OpenGLPAG/out/install/x64-Debug/
+libdir=K:/Repo/OpenGLPAG/out/install/x64-Debug/lib
+includedir=K:/Repo/OpenGLPAG/out/install/x64-Debug/include
+
+Name: OpenGLPAG
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 4.1.0
+Libs: -L${libdir} -lassimp
+Libs.private:  
+Cflags: -I${includedir}
